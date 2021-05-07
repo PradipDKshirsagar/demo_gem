@@ -20,5 +20,9 @@ module DemoGem
     def multiple
       @first * @second
     end
+
+    def division
+      @first.to_f / @second.to_f
+    end
   end
 end
