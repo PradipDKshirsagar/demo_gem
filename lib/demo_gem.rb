@@ -16,5 +16,9 @@ module DemoGem
     def subtract
       @first - @second
     end
+
+    def multiple
+      @first * @second
+    end
   end
 end
